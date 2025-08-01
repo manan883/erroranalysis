@@ -1,0 +1,6 @@
+Failed init
+Sensor1 didn't respond
+Network failure
+Corrupted file
+Process monitor is not running
+

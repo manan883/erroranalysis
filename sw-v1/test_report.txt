@@ -1,0 +1,73 @@
+Version: sw-v1
+
+Total 60 errors. Known 30. New 30
+
+test1
+
+
+
+Device d1
+
+Error Name, Error Count, Timestamp
+
+failed init, 3, 2025-08-01t05:12:01.123-07:00
+sensor1 didn't respond, 3, 2025-08-01t05:12:05.456-07:00
+network failure, 3, 2025-08-01t05:15:22.789-07:00
+corrupted file, 3, 2025-08-01t05:18:33.012-07:00
+process monitor is not running, 3, 2025-08-01t05:18:33.300-07:00
+disk write error, 1, 2025-08-01t05:20:45.678-07:00
+sensor calibration failed, 1, 2025-08-01t05:35:22.345-07:00
+unexpected reboot, 1, 2025-08-01t05:40:55.678-07:00
+packet loss exceeding threshold, 1, 2025-08-01t05:45:10.901-07:00
+file descriptor leak detected, 1, 2025-08-01t06:00:00.250-07:00
+
+
+Device d3
+
+Error Name, Error Count, Timestamp
+
+failed init, 1, 2025-08-03t01:05:12.345-07:00
+sensor1 didn't respond, 1, 2025-08-03t01:06:15.456-07:00
+network failure, 1, 2025-08-03t01:10:30.567-07:00
+backup drive not found, 1, 2025-08-03t01:10:35.678-07:00
+corrupted file, 1, 2025-08-03t01:15:45.789-07:00
+process monitor is not running, 1, 2025-08-03t01:15:46.012-07:00
+firmware update failed, 1, 2025-08-03t01:20:00.123-07:00
+disk write error, 1, 2025-08-03t01:25:10.234-07:00
+packet loss exceeding threshold, 1, 2025-08-03t01:30:22.345-07:00
+sensor calibration failed, 1, 2025-08-03t01:35:33.456-07:00
+file descriptor leak detected, 1, 2025-08-03t01:40:44.567-07:00
+heartbeat missed, 1, 2025-08-03t01:45:55.678-07:00
+overheating detected, 1, 2025-08-03t02:00:00.789-07:00
+memory overflow detected, 1, 2025-08-03t02:10:11.890-07:00
+unauthorized access attempt, 1, 2025-08-03t02:20:22.901-07:00
+unexpected module shutdown, 1, 2025-08-03t02:30:33.012-07:00
+service timeout, 1, 2025-08-03t02:45:45.123-07:00
+database locked, 1, 2025-08-03t03:00:55.234-07:00
+authentication failure, 1, 2025-08-03t03:15:05.345-07:00
+gpu driver crash, 1, 2025-08-03t03:30:15.456-07:00
+
+
+Device d2
+
+Error Name, Error Count, Timestamp
+
+failed init, 2, 2025-08-02t07:05:00.100-07:00
+sensor1 didn't respond, 2, 2025-08-02t07:06:15.200-07:00
+network failure, 2, 2025-08-02t07:07:30.300-07:00
+corrupted file, 2, 2025-08-02t07:09:45.400-07:00
+process monitor is not running, 2, 2025-08-02t07:09:45.650-07:00
+disk write error, 1, 2025-08-02t07:12:00.500-07:00
+sensor calibration failed, 1, 2025-08-02t07:14:15.600-07:00
+unexpected reboot, 1, 2025-08-02t07:16:30.700-07:00
+packet loss exceeding threshold, 1, 2025-08-02t07:18:45.800-07:00
+file descriptor leak detected, 1, 2025-08-02t07:22:00.900-07:00
+overheating detected, 1, 2025-08-02t07:30:30.120-07:00
+service timeout, 1, 2025-08-02t07:50:45.670-07:00
+database locked, 1, 2025-08-02t07:55:00.780-07:00
+authentication failure, 1, 2025-08-02t08:00:15.890-07:00
+tls handshake failure, 1, 2025-08-02t08:05:30.001-07:00
+
+
+test2
+
