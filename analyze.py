@@ -40,7 +40,6 @@ class analyze:
         '''
         table format: {testName: {device: {error: [numtimes,timestamp]} } }
         '''
-        print(table)
         def tableFormat(fileLocal, table):
             '''
             table format: {device: {error: [numtimes,timestamp]} }
